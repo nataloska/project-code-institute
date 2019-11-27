@@ -1,0 +1,196 @@
+.menu {
+    background-color: #2516f5de;
+    overflow:hidden;
+}
+
+.menu a{
+    float:left;
+    color: #030806e0;
+    text-align: center;
+    padding: 15px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    min-width: 130px;
+    text-decoration:none;
+
+}
+.menu a:hover{
+    background-color: #f6fa14f6;
+    color: rgba(15, 75, 155, 0.815);
+}
+.dropdown:hover .ddbtn{
+    background-color: #f52314ef;
+}
+.menu a.active{
+    background-color: #f80ad0f1;
+    color:rgba(252, 4, 4, 0.979);
+}
+.dropdown-active{
+    background-color: #ff0707;
+    color:white;
+    float:left;
+    overflow:hidden;
+    width:130px;
+}
+.dropdown{
+    float:left;
+    overflow:hidden;
+    width:130px;
+    color:white;
+}
+.dropdown .ddbtn{
+    font-size:20px;
+    border:none;
+    outline:none;
+    text-align:center;
+    padding:14px 16px;
+    background-color:inherit;
+    font-family:inherit;
+    min-width:130px;
+}
+.dropdown-active .ddbtn{
+    font-size:20px;
+    border:none;
+    outline:none;
+    text-align:center;
+    padding:14px 16px;
+    background-color:inherit;
+    font-family:inherit;
+    width:130px;
+}
+.ddlist{
+    display:none;
+    position:absolute;
+    background-color:inherit;
+    min-width:130px;
+    box-shadow: 0px, 8px, 16px, 0px rgba (0,0,0,0,2);
+    z-index:1;
+}
+.ddlist a{
+    float:none;
+    color:inherit;
+    padding:14px 16px;
+    text-decoration:none;
+    display:block;
+    text-align:left;
+}
+.ddlist a:hover{
+    background-color: rgba(241, 23, 52, 0.925);
+}
+.dropdown:hover .ddlist{
+    display:block;
+    background-color: rgba(241, 23, 52, 0.925);
+}
+.dropdown-active:hover .ddlist{
+    display:block;
+}
+.carddj{
+    text-align:center;
+    float:left;
+    left:50px;
+    width: 50vw;
+    height:40vw;
+}
+.djinfo{
+    width: 30vw;
+    float:left;
+    padding:10px;
+    margin:10px;
+}
+.contact{
+    display:block;
+    margin:0 auto;
+    width: 30vw;
+    
+}
+.cform{
+    margin: 0 auto;
+    width:80%;
+    background-color:#efefef;
+    border: 1x solid black;
+    padding:15px;
+    margin-top: 3px;
+    font-size:0rem 14px;
+    color:rgba(252, 30, 222, 0.959);
+    box-sizing:border-box;
+
+}
+.clabel{
+    display: block;
+    margin-top: 20px;
+}
+.cinput{
+    width: 300px;
+}
+
+.ctextarea{
+    resize: none;
+    width: 300px;
+    height: 100px;
+}
+.csubmit{
+    display:block;
+    width:300px;
+}
+
+.footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    background-color: #333333;
+    color:white;
+    text-align:center;
+    width:100%;
+}
+.container{
+
+}
+.container .p{
+    Width:70vw;
+    font-family:Arial, 'Times New Roman';
+    top:20vw;
+}
+.card {
+    float: left;
+    width: 20%;
+    margin-left:10% ;
+}
+img {
+    width: 100%;
+}
+h1{
+    text-align: center ;
+    text-decoration-color: #141307de;
+    text-decoration-style: rgba(250, 101, 200, 0.89);
+
+}
+
+.class.card {
+    float: left;
+    width: 20%;
+    margin-left:10% ;
+}
+img {
+    width: 100%;
+}
+h1{
+    text-align: center ;
+    text-decoration-color: #141307de;
+    text-decoration-style: #a50808e7;
+
+}
+.class.card {
+    float: left;
+    width: 20%;
+    margin-left:10% ;
+}
+img {
+    width: 100%;
+}
+h1{
+    text-align: center ;
+    text-decoration-color: #141307de;
+    text-decoration-style: #a50808e7;
+}
+
+
